@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    padding: 10px 20px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: lightgrey;
+    display: center;
+    position: inline-block;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    text-transform: uppercase;
+    text-shadow: 1px 2px white;
+    }
+
+#colours {
+    display: block;
+    position: relative;
+    padding-top: 70px;
+    margin-top: 20px;
+}
+
+h2 {
+    text-indent: 5%;
+    text-decoration: underline;
+    text-shadow: 1px 2px white;
+}
+
+#colours p {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+    line-height: 2;
+    border: 5px dashed white;
+}
+
+#fonts p {
+    width: 40%;
+    display: inline-block;
+}
+#persian {
+    background-color: #00a6a6
+}
+
+#vista {
+    background-color: #98dbc6;
+}
+
+#marvelous {
+    background-color: #f18d9e;
+}
+
+#sunflower {
+    background-color: #e6d72a;
+}
+
+#monospace {
+    font-family: "Major Mono Display", monospace;
+}
+
+#sans-serif {
+    font-family: "Kanit", sans-serif;
+}
+
+#serif { 
+    font-family: "Bree Serif", serif;
+}
+
+#styling h3 {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#styling h4 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#styling h5 {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-size: 14px;
+}
